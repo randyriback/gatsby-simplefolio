@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Randy Riback | Developer', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -29,6 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'mooder.png',
+    title: 'MoodMix',
     info: '',
     info2: '',
     url: 'https://moodmix.herokuapp.com/',
@@ -37,7 +38,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'weather.png',
-    title: '',
+    title: 'Weather Zone',
     info: '',
     info2: '',
     url: 'https://randyriback.github.io/weather-zone/',
@@ -46,7 +47,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'super.png',
-    title: '',
+    title: 'The Superhero Database',
     info: '',
     info2: '',
     url: 'https://marvel-41f36.web.app/',
@@ -55,7 +56,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'racer.png',
-    title: '',
+    title: 'Ergast Formula 1 API',
     info: '',
     info2: '',
     url: 'https://racer-59019.web.app/',
