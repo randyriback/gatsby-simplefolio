@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Hero from './Hero/Hero';
 import About from './About/About';
 import Projects from './Projects/Projects';
 import Projects1 from './Projects/Projects1';
