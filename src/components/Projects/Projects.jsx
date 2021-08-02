@@ -52,7 +52,7 @@ const Projects = () => {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        className=".cta-btn--resume"
+                        className="cta-btn text-color-main"
                         href={url || '#!'}
                       >
                         See Live
@@ -62,7 +62,7 @@ const Projects = () => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn--resume"
+                          className="cta-btn text-color-main"
                           href={repo}
                         >
                           Source Code
