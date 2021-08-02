@@ -31,26 +31,35 @@ export const projectsData = [
     img: 'mooder.png',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/randyriback', // if no repo, the button will not show up
+    url: 'https://moodmix.herokuapp.com/',
+    repo: 'https://github.com/randyriback/capstone', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'weather.png',
     title: '',
     info: '',
     info2: '',
-    url: '',
+    url: 'https://randyriback.github.io/weather-zone/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'super.png',
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://marvel-41f36.web.app/',
+    repo: 'https://github.com/randyriback/react_marvel_api', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'racer.png',
+    title: '',
+    info: '',
+    info2: '',
+    url: 'https://racer-59019.web.app/',
+    repo: 'https://github.com/randyriback/racer-api', // if no repo, the button will not show up
   },
 ];
 
