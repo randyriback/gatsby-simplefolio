@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'mooder.png'
+    img: 'mooder.png',
     info: '',
     info2: '',
     url: '',
