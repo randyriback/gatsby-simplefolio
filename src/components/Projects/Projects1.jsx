@@ -6,7 +6,7 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
-const Projects = () => {
+const Projects1 = () => {
   const { projects } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
