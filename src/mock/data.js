@@ -48,7 +48,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'super.png',
     title: 'The Superhero Database',
-    info: 'A React-built app that allows users interface  with a restful API that was built in Flask. The front-end shown here was deployed with Firebase',
+    info: 'A React-built app that allows users interface with a restful API that was built in Flask. Front-end deployed with Firebase',
     info2: '',
     url: 'https://marvel-41f36.web.app/',
     repo: 'https://github.com/randyriback/react_marvel_api', // if no repo, the button will not show up
@@ -57,7 +57,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'racer.png',
     title: 'Ergast Formula 1 API',
-    info: '',
+    info: 'A simple interface to display data from the Ergast Racer API, deployed on Firebase.',
     info2: '',
     url: 'https://racer-59019.web.app/',
     repo: 'https://github.com/randyriback/racer-api', // if no repo, the button will not show up
@@ -74,24 +74,15 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
+
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
+      name: 'github',
       url: '',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
       url: '',
     },
   ],
