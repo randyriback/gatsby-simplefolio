@@ -41,7 +41,7 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title">{title || 'MoodMix'}</h3>
                       <div>
                         <p>
                           {info ||
@@ -63,7 +63,7 @@ const Projects = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                           className="cta-btn text-color-main"
-                          href={repo}
+                          href='https://marvel-41f36.web.app/'
                         >
                           Source Code
                         </a>
