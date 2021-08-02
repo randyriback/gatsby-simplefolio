@@ -7,7 +7,7 @@ import Footer from './Footer/Footer';
 
 import { PortfolioProvider } from '../context/context';
 
-import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
+import { aboutData, projectsData, contactData, footerData } from '../mock/data';
 
 function App() {
   const [about, setAbout] = useState({});
@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <PortfolioProvider value={{ about, projects, projects1, contact, footer }}>
+    <PortfolioProvider value={{ about, projects, projects, contact, footer }}>
       <About />
       <Projects />
       <Projects1 />
