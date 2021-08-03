@@ -40,7 +40,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'weather.png',
     title: 'Weather Zone',
-    info: 'A minimal interface for the weather API from openweathermap.org, Weather Zone also utilizes the Giphy API with a beta key. Deployed with GitHub Pages',
+    info: 'A minimal interface for the weather API from openweathermap.org, Weather Zone also utilizes the Giphy API with a beta key. Deployed with GitHub Pages.',
     info2: '',
     url: 'https://randyriback.github.io/weather-zone/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -57,8 +57,8 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'racer.png',
-    title: 'Ergast Formula 1 API',
-    info: 'A simple UI to display data from the Ergast Racer API, deployed on Firebase.',
+    title: 'Ergast API Display',
+    info: 'A simple UI to display table data from the Ergast Racer API, deployed on Firebase.',
     info2: '',
     url: 'https://racer-59019.web.app/',
     repo: 'https://github.com/randyriback/racer-api', // if no repo, the button will not show up
