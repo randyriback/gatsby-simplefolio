@@ -66,7 +66,7 @@ export const projectsData = [
 ];
 
 // PROJECTS DATA
-export const projectsData2 = [
+export const projectsData1 = [
   {
     id: nanoid(),
     img: 'kapha.png',

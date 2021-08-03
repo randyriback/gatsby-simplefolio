@@ -26,6 +26,7 @@ const Projects1 = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
+        <p>U+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0FU+FE0F</p>
           <Title title="Music" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;

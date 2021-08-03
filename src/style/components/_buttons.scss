@@ -64,7 +64,7 @@
 /* Resume Style */
 .cta-btn--resume {
   color: $dark-grey;
-  b
+  border: 2px solid $dark-grey;
 
   &::after {
     background: $dark-grey;
