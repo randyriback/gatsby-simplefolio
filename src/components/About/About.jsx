@@ -39,8 +39,7 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    "Hi, I'm Randy Riback."}
+                    <strong>Hi, I'm Randy Riback.</strong>
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
