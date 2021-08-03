@@ -31,7 +31,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'mooder.png',
     title: 'MoodMix',
-    info: "My final project for the Coding Temple, MoodMix is an app that helps users discover new music via 'weekly, curated DJ mixes' and the users' mood based on facial, emotion-based technology. The app highlights two APIs from Face++ and Mixcloud's API. Deployed with Heroku.",
+    info: "My capstone project for the Coding Temple, MoodMix is an app that helps users discover new music via 'weekly, curated DJ mixes' and the user's mood based on facial, emotion-based technology. The app highlights two APIs from Face++ and a Mixcloud API. Deployed with Heroku.",
     info2: '',
     url: 'https://moodmix.herokuapp.com/',
     repo: 'https://github.com/randyriback/capstone', // if no repo, the button will not show up
@@ -40,7 +40,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'weather.png',
     title: 'Weather Zone',
-    info: 'A minimal interface for the weather API from openweathermap.org, Weather Zone also utilizes the Giphy API with a beta key. Deployed with Firebase',
+    info: 'A minimal interface for the weather API from openweathermap.org, Weather Zone also utilizes the Giphy API with a beta key. Deployed with GitHub Pages',
     info2: '',
     url: 'https://randyriback.github.io/weather-zone/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
