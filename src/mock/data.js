@@ -69,8 +69,8 @@ export const projectsData = [
 export const projectsData2 = [
   {
     id: nanoid(),
-    img: 'mooder.png',
-    title: 'MoodMix',
+    img: 'kapha.png',
+    title: 'Kapha Selections',
     info: "My final project for the Coding Temple, MoodMix is an app that helps users discover new music via 'weekly, curated DJ mixes' and the users' mood based on facial, emotion-based technology. The app highlights two APIs from Face++ and Mixcloud's API. Deployed with Heroku.",
     info2: '',
     url: 'https://moodmix.herokuapp.com/',
@@ -78,8 +78,8 @@ export const projectsData2 = [
   },
   {
     id: nanoid(),
-    img: 'weather.png',
-    title: 'Weather Zone',
+    img: 'loci.jpeg',
+    title: 'jung dj - loci flux',
     info: 'A minimal interface for the weather API from openweathermap.org, Weather Zone also utilizes the Giphy API with a beta key. Deployed with Firebase',
     info2: '',
     url: 'https://randyriback.github.io/weather-zone/',
@@ -87,8 +87,8 @@ export const projectsData2 = [
   },
   {
     id: nanoid(),
-    img: 'super.png',
-    title: 'The Superhero Database',
+    img: 'js.jpeg',
+    title: 'Jung Deejay - Java Scripts',
     info: 'A React-built app that allows users interface with a restful API that was built in Flask. Front-end deployed with Firebase',
     info2: '',
     url: 'https://marvel-41f36.web.app/',
@@ -96,8 +96,8 @@ export const projectsData2 = [
   },
   {
     id: nanoid(),
-    img: 'racer.png',
-    title: 'Ergast Formula 1 API',
+    img: 'beer.jpeg',
+    title: 'Jung Deejay - 7 Sketches for Akai Sampler',
     info: 'A simple interface to display data from the Ergast Racer API, deployed on Firebase.',
     info2: '',
     url: 'https://racer-59019.web.app/',
