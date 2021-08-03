@@ -27,7 +27,7 @@ const Projects1 = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="Music" />
-          {projects.map((project) => {
+          {projects1.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
             return (
