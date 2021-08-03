@@ -28,7 +28,6 @@ a:hover {
   text-align: left;
   font-size: $big-font-size;
   font-weight: bold;
-  text-transform: uppercase;
 
   @include respond(phone) {
     font-size: 2.8rem;
