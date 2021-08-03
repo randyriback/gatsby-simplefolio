@@ -26,7 +26,8 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Coding" />
+          <h1>Projects</h1>
+          <Title title="" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
