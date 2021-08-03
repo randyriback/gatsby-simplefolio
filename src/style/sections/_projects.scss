@@ -36,7 +36,8 @@
 
       &-title {
         font-weight: bold;
-        margin-bottom: 1.8rem;
+        text-align: left;
+        margin-bottom: 2.0rem;
         font-size: $mid-font-size;
 
         @include respond(phone) {
