@@ -64,6 +64,7 @@
 .cta-btn--resume {
   color: $dark-grey;
   border: 2px solid $dark-grey;
+  padding: 1px;
 
   &::after {
     background: $dark-grey;
@@ -72,6 +73,7 @@
   &:hover {
     color: $dark-grey;
     text-decoration: none;
+    color: $white-color;
 
     &::after {
       width: 100%;
