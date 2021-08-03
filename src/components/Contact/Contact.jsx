@@ -27,6 +27,11 @@ const Contact = () => {
             </a>
           </div>
         </Fade>
+        <span className="back-to-top">
+          <Link to="about" smooth duration={1000}>
+            <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
+          </Link>
+        </span>
       </Container>
     </section>
   );
