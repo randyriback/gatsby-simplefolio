@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import About from './About/About';
 import Projects from './Projects/Projects';
-import Projects1 from './Projects/Projects1';
+import Projects1 from './Projects1/Projects1';
 import Contact from './Contact/Contact';
 import { PortfolioProvider } from '../context/context';
 
