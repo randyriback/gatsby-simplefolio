@@ -24,7 +24,6 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
