@@ -12,10 +12,15 @@
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   padding-bottom: 18%;
 
+
   @include respond(tab-land) {
     height: 100%;
     -webkit-clip-path: none;
     clip-path: none;
+  }
+
+  #done {
+    margin-top: 5rem;
   }
 
   .about-wrapper {

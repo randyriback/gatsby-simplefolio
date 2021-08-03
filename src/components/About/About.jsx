@@ -59,13 +59,14 @@ const About = () => {
             </Fade>
           </Col>
         </Row>
-        
+      <div id="done">
       <h3>Projects</h3>
         <span>
         <Link to="projects" smooth duration={1000}>
             <i className="fa fa-angle-down fa-2x" aria-hidden="true" />
           </Link>
           </span>
+          </div>
           </Container>
     </section>
   );
