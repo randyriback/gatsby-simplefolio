@@ -10,6 +10,7 @@ const Contact = () => {
 
   return (
     <section id="contact">
+      <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
       <Container>
         <Title title="" />
         <Fade bottom duration={1000} delay={800} distance="30px">
