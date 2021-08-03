@@ -50,7 +50,7 @@ const About = () => {
                   {paragraphThree || 'Technologies + Languages: Flask, PostgreSQL, React.js, Firebase, Python, JavaScript, HTML5, CSS3, Bootstrap, Git'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphFour || 'Find me on <a href="https://github.com/randyriback">Github</a>, <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>, <a href="https://www.instagram.com/_track87/">Instagram</a>, <a href="https://soundcloud.com/jungdeejay">SoundCloud</a>, or just'}
+                  'Find me on <a href="https://github.com/randyriback">Github</a>, <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>, <a href="https://www.instagram.com/_track87/">Instagram</a>, <a href="https://soundcloud.com/jungdeejay">SoundCloud</a>, or just'
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
