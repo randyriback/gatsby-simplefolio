@@ -50,7 +50,7 @@ const About = () => {
                   {paragraphThree || 'Technologies + Languages: Flask, PostgreSQL, React.js, Firebase, Python, JavaScript, HTML5, CSS3, Bootstrap, Git'}
                 </p>
                 <p className="about-wrapper__info-text">
-                <a href="mailto:randolph.riback@gmail.com">Say hello</a>, or find me on <a href="https://github.com/randyriback">Github</a>, <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>, <a href="https://www.instagram.com/_track87/">Instagram</a>, or <a href="https://soundcloud.com/jungdeejay">SoundCloud</a>.
+                <a href="mailto:randolph.riback@gmail.com">Say hello</a> or find me on <a href="https://github.com/randyriback">Github</a>, <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>, or <a href="https://www.instagram.com/_track87/">Instagram</a>.
                 </p>
         
             
