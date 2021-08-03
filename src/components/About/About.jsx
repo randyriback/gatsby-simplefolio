@@ -50,19 +50,9 @@ const About = () => {
                   {paragraphThree || 'Technologies + Languages: Flask, PostgreSQL, React.js, Firebase, Python, JavaScript, HTML5, CSS3, Bootstrap, Git'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  'Find me on <a href="https://github.com/randyriback">Github</a>, <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>, <a href="https://www.instagram.com/_track87/">Instagram</a>, <a href="https://soundcloud.com/jungdeejay">SoundCloud</a>, or just'
+                Feel free to<a href="mailto:randolph.riback@gmail.com">Say hello</a>, or find me on <a href="https://github.com/randyriback">Github</a>, <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>, <a href="https://www.instagram.com/_track87/">Instagram</a>, or <a href="https://soundcloud.com/jungdeejay">SoundCloud</a>.
                 </p>
-                {resume && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
-                      Say Hello
-                    </a>
-                    </span> )}
+        
             
               </div>
             </Fade>
