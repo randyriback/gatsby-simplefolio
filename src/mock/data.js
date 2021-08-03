@@ -49,7 +49,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'super.png',
     title: 'The Superhero Database',
-    info: 'A React-built app that allows users to interact with a restful API that was built in Flask. Front-end deployed with Firebase',
+    info: 'A React-built app that allows users to interact with a restful API that was built in Flask. Front-end deployed with Firebase.',
     info2: '',
     url: 'https://marvel-41f36.web.app/',
     repo: 'https://github.com/randyriback/react_marvel_api', // if no repo, the button will not show up
