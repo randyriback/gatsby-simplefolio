@@ -7,7 +7,7 @@ import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
 const Projects1 = () => {
-  const { projects } = useContext(PortfolioContext);
+  const { projects1 } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -23,7 +23,7 @@ const Projects1 = () => {
   }, []);
 
   return (
-    <section id="projects">
+    <section id="projects1">
       <Container>
         <div className="project-wrapper">
           <Title title="Music" />
