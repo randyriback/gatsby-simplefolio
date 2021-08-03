@@ -25,7 +25,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
+        <Title title="" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -43,7 +43,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    "I’m a full-stack developer, dj, and musician based in Beacon, NY. After 10 years of life in art, music, and NYC hospitality, I’m excited to double-down on my lifelong love for technology through coding."}
+                    "I’m a full-stack developer, DJ, and musician based in Beacon, NY. After 10 years of life in art, music, and NYC hospitality, I’m excited to double-down on my lifelong love for technology through coding."}
                     
                 </p>
                 <p className="about-wrapper__info-text">
@@ -59,6 +59,7 @@ const About = () => {
                     >
                       Resume
                     </a>
+                    <p>(Or find me on <a href="http://soundcloud.com">Soundcloud</a>)</p>
                   </span>
                 )}
               </div>
