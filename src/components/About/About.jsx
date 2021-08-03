@@ -52,6 +52,16 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                 <a href="mailto:randolph.riback@gmail.com">Say hello</a> or find me on <a href="https://github.com/randyriback">GitHub</a>, <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>, and <a href="https://www.instagram.com/_track87/">Instagram</a>.
                 </p>
+                <span className="d-flex mt-3">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn--resume"
+                      href={resume}
+                    >
+                      Resumé
+                    </a>
+                  </span>
         
             
               </div>

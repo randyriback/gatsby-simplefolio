@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo: '',
   paragraphThree: '',
   paragraphFour: "",
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://docs.google.com/document/d/e/2PACX-1vQbCgjq1kjTrPPQfjq3oeJplp-8d3AZAi3xictJH6vQnWUB0pI6VStMSKQwq8DCSwQslGAPs1iZiYUR/pub', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
