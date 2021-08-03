@@ -44,14 +44,14 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    "I’m a full-stack developer, DJ, and musician based in Beacon, NY. For the last 10 years, I've been exploring the impact of technology within the worlds of art, music, and restaurant culture. When I’m not coding, you can find me curating ambient sounds, exploring hikes upstate, or enjoying espresso or natural wine."}
+                    "I’m a full-stack developer, DJ, and musician based in Beacon, NY. For the last 10 years, I've been exploring the impact of technology within the worlds of art, music, and restaurant culture. When I’m not coding, you can find me curating ambient sounds, exploring hikes upstate, or enjoying natural wine."}
                     
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Technologies + Languages: Flask, PostgreSQL, React.js, Firebase, Python, JavaScript, HTML5, CSS3, Bootstrap, Git'}
                 </p>
                 <p className="about-wrapper__info-text">
-                <a href="mailto:randolph.riback@gmail.com">Say hello</a> or find me on <a href="https://github.com/randyriback">Github</a>, <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>, or <a href="https://www.instagram.com/_track87/">Instagram</a>.
+                <a href="mailto:randolph.riback@gmail.com">Say hello</a> or find me on <a href="https://github.com/randyriback">Github</a>, <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>, and <a href="https://www.instagram.com/_track87/">Instagram</a>.
                 </p>
         
             
@@ -59,7 +59,8 @@ const About = () => {
             </Fade>
           </Col>
         </Row>
-      <div id="done">
+          </Container>
+          <div id="done">
       <h3>Projects</h3>
         <span>
         <Link to="projects" smooth duration={1000}>
@@ -67,7 +68,6 @@ const About = () => {
           </Link>
           </span>
           </div>
-          </Container>
     </section>
   );
 };
