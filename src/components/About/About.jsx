@@ -61,7 +61,7 @@ const About = () => {
                     </a>
                     </span> )}
                     <p>(Or find me on <a href="http://soundcloud.com">Soundcloud</a>)</p>
-                  
+            
               </div>
             </Fade>
           </Col>
