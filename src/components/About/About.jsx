@@ -43,7 +43,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    "I’m a full-stack developer, DJ, and <a href='https://soundcloud.com/jungdeejay'>musician</a> based in Beacon, NY. For the last 10 years, I've been exploring the impact of technology within the worlds of art, music, and restaurant culture. Now, when I’m not coding, you can find me <a href='https://kaphaselections.bandcamp.com'>curating ambient sounds</a>, exploring hikes upstate (NY), or enjoying natural wine."}
+                    "I’m a full-stack developer, DJ, and musician based in Beacon, NY. For the last 10 years, I've been exploring the impact of technology within the worlds of art, music, and restaurant culture. Now, when I’m not coding, you can find me curating ambient sounds, exploring hikes upstate (NY), or enjoying natural wine."}
                     
                 </p>
                 <p className="about-wrapper__info-text">

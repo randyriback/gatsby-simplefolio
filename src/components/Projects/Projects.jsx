@@ -24,9 +24,10 @@ const Projects = () => {
 
   return (
     <section id="projects">
+      <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+      <h1>Projects</h1>
       <Container>
         <div className="project-wrapper">
-          <h1>Projects</h1>
           <Title title="" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
@@ -113,6 +114,7 @@ const Projects = () => {
           })}
         </div>
       </Container>
+      <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
     </section>
   );
 };
