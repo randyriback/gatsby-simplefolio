@@ -111,14 +111,14 @@ const Projects = () => {
             );
           })}
         </div>
-        <div id="done1">
+        {/* <div id="done1">
       <h3>Solo Releases</h3>
         <span>
         <Link to="music" smooth duration={1000}>
             <i className="fa fa-angle-down fa-2x" aria-hidden="true" />
           </Link>
           </span>
-          </div>
+          </div> */}
       </Container>
     </section>
   );
