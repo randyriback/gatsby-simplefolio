@@ -59,14 +59,7 @@ const Music = () => {
                       </a>
 
                       {repo && (
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cta-btn cta-btn--resume"
-                          href={repo}
-                        >
-                          Source Code
-                        </a>
+                        
                       )}
                     </div>
                   </Fade>
