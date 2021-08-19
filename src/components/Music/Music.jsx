@@ -25,6 +25,9 @@ const Music = () => {
   return (
     <section id="music">
       <Container>
+        <div id="solo">
+        <h1>Selected Solo Releases</h1>
+        </div>
         <div className="project-wrapper">
           <Title title="" />
           {music.map((project) => {

@@ -68,38 +68,38 @@ export const projectsData = [
 export const musicData = [
   {
     id: nanoid(),
-    img: 'kapha.png',
-    title: 'Kapha Selections',
-    info: "My final project for the Coding Temple, MoodMix is an app that helps users discover new music via 'weekly, curated DJ mixes' and the users' mood based on facial, emotion-based technology. The app highlights two APIs from Face++ and Mixcloud's API. Deployed with Heroku.",
-    info2: '',
-    url: 'https://moodmix.herokuapp.com/',
+    img: 'loci1.jpeg',
+    title: 'jung dj - loci flux',
+    info: "A collection of work inspired by time in lockdown, each piece makes use of granular synthesis, audio sample time-stretching, and generative rhythm algorithms. Each piece on loci flux is named after a friend in the NYC DJ community in an effort to achieve catharsis and provide an homage to club music/public gatherings during their absence.",
+    info2: 'Released on cassette, edition of 75 (Lillerne Tapes, 2021)',
+    url: '',
     repo: 'https://github.com/randyriback/capstone', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'loci.jpeg',
-    title: 'jung dj - loci flux',
-    info: 'A minimal interface for the weather API from openweathermap.org, Weather Zone also utilizes the Giphy API with a beta key. Deployed with Firebase',
-    info2: '',
-    url: 'https://randyriback.github.io/weather-zone/',
+    img: 'jscripts.jpeg',
+    title: 'Jung Deejay - Java Scripts',
+    info: 'A lively nod to rise of internet cafe culture in the 90s, Java Scripts is meant to convey “world music” through the lens of the dawn of the internet age. The process was an exercise in collecting samples of dated synthesizers and computing polyrhythms and melodies with a hardware sequencer. The B-side features a re-work of each piece by a unique artist, respectively.',
+    info2: 'Released on cassette, edition of 100 (Artetera Records, 2020)',
+    url: 'https://artetetra.bandcamp.com/album/java-scripts-2',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'js.jpeg',
-    title: 'Jung Deejay - Java Scripts',
-    info: 'A React-built app that allows users interface with a restful API that was built in Flask. Front-end deployed with Firebase',
-    info2: '',
-    url: 'https://marvel-41f36.web.app/',
+    img: '7.jpeg',
+    title: 'Jung Deejay - 7 Sketches for Akai Sampler',
+    info: 'A love-letter to the universally adored (and extremely outdated) Akai s950 Sampler. All music composed on the digital audio workstation Ableton Live and subsequently run through the famed sampler for a ‘degraded’ audio quality. The release makes use of Korg synthesizers like the M1, Wavestation, and MS-20 and was also released in an all 8-bit format, as well.',
+    info2: 'Released on CD, edition of 100 (Beer on the Rug, 2020)',
+    url: 'https://beerontherug.bandcamp.com/album/7-sketches-for-akai-sampler',
     repo: 'https://github.com/randyriback/react_marvel_api', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'beer.jpeg',
-    title: 'Jung Deejay - 7 Sketches for Akai Sampler',
-    info: 'A simple interface to display data from the Ergast Racer API, deployed on Firebase.',
-    info2: '',
-    url: 'https://racer-59019.web.app/',
+    img: 'wave.jpeg',
+    title: 'Jung Deejay - Wave Idea',
+    info: '"Made with Muzak and Guitar Center on the brain", Wave Idea explores themes of Balearic club music tinged with an ironic look at how the commodification of music and musical instruments can sneakily infiltrate the creative process. The music utilizes hardware sequencers, analog synthesis, digital synthesis, and Euclidean rhythm programming.',
+    info2: 'Released on cassette, edition of 50 (Lillerne Tapes, 2019)',
+    url: 'https://lillernetapes.bandcamp.com/album/wave-idea',
     repo: 'https://github.com/randyriback/racer-api', // if no repo, the button will not show up
   },
 ];

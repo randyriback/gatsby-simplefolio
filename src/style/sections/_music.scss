@@ -15,6 +15,11 @@
       @include respond(phone) {
         margin-bottom: 0rem;
       }
+
+      #solo{
+          padding-top: 2em;
+          padding-bottom: 2em;
+      }
   
   
       .row {
