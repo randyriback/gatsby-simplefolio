@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
@@ -112,12 +113,14 @@ const Projects = () => {
           })}
         </div>
       </Container>
-      {/* <h3>Solo Releases</h3>
+      <div id="done1">
+      <h3>Projects</h3>
         <span>
-        <Link to="music" smooth duration={1000}>
+        <Link to="projects" smooth duration={1000}>
             <i className="fa fa-angle-down fa-2x" aria-hidden="true" />
           </Link>
-          </span> */}
+          </span>
+          </div>
     </section>
   );
 };
