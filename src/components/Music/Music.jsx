@@ -23,7 +23,7 @@ const Music = () => {
   }, []);
 
   return (
-    <section id="music1">
+    <section id="music">
       <Container>
         <div className="project-wrapper">
           <Title title="" />
@@ -88,7 +88,7 @@ const Music = () => {
                       >
                         <Tilt
                           options={{
-                            reverse: false,
+                            reverse: true,
                             max: 8,
                             perspective: 1000,
                             scale: 1,
