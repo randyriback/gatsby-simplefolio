@@ -41,7 +41,7 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                    <strong>Randy Riback is a full-stack software developer, <a href="https://soundcloud.com/jung_deejay">DJ</a>, and <a href="https://soundcloud.com/jung_deejay">musician</a> based in Beacon, NY. He also currently runs the cassette series <a href="https://kaphaselections.bandcamp.com">Kapha Selections</a>.</strong>
+                    <strong>Hi, I'm Randy Riback. I'm a full-stack software developer, <a href="https://soundcloud.com/jung_deejay">DJ</a>, and <a href="https://soundcloud.com/jung_deejay">musician</a> currently based in Beacon, NY. I also currently run an independant cassette series called <a href="https://kaphaselections.bandcamp.com">Kapha Selections</a>.</strong>
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
@@ -52,7 +52,7 @@ const About = () => {
                   {paragraphThree || 'Skills include Flask, React.js, PostgreSQL, Python, JavaScript, HTML5, CSS3, Firebase, Gatsby, Heroku, Git, Ableton Live, Protools'}
                 </p>
                 <p className="about-wrapper__info-text">
-                <a href="mailto:randolph.riback@gmail.com">Say hello</a> or find on <a href="https://github.com/randyriback">GitHub</a>, <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>, and <a href="https://www.instagram.com/_track87/">Instagram</a>.
+                <a href="mailto:randolph.riback@gmail.com">Say hello</a> or find me on <a href="https://github.com/randyriback">GitHub</a>, <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>, and <a href="https://www.instagram.com/_track87/">Instagram</a>.
                 </p>
                 <span className="d-flex mt-3">
                     <a
