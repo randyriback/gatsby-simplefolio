@@ -68,19 +68,19 @@ export const projectsData = [
 export const musicData = [
   {
     id: nanoid(),
-    img: 'loci1.jpeg',
+    img: 'loci.jpeg',
     title: 'jung dj - loci flux',
     info: "A collection of work inspired by time in lockdown, each piece makes use of granular synthesis, audio sample time-stretching, and generative rhythm algorithms. Each piece on loci flux is named after a friend in the NYC DJ community in an effort to achieve catharsis and provide an homage to club music/public gatherings during their absence.",
-    info2: 'Released on cassette, edition of 75 (Lillerne Tapes, 2021)',
+    info2: 'Cassette, edition of 75 (Lillerne Tapes, 2021)',
     url: '',
     repo: 'https://github.com/randyriback/capstone', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'jscripts.jpeg',
+    img: 'js.jpeg',
     title: 'Jung Deejay - Java Scripts',
     info: 'A lively nod to rise of internet cafe culture in the 90s, Java Scripts is meant to convey “world music” through the lens of the dawn of the internet age. The process was an exercise in collecting samples of dated synthesizers and computing polyrhythms and melodies with a hardware sequencer. The B-side features a re-work of each piece by a unique artist, respectively.',
-    info2: 'Released on cassette, edition of 100 (Artetera Records, 2020)',
+    info2: 'Cassette, edition of 100 (Artetera Records, 2020)',
     url: 'https://artetetra.bandcamp.com/album/java-scripts-2',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -89,16 +89,16 @@ export const musicData = [
     img: '7.jpeg',
     title: 'Jung Deejay - 7 Sketches for Akai Sampler',
     info: 'A love-letter to the universally adored (and extremely outdated) Akai s950 Sampler. All music composed on the digital audio workstation Ableton Live and subsequently run through the famed sampler for a ‘degraded’ audio quality. The release makes use of Korg synthesizers like the M1, Wavestation, and MS-20 and was also released in an all 8-bit format, as well.',
-    info2: 'Released on CD, edition of 100 (Beer on the Rug, 2020)',
+    info2: 'CD, edition of 100 (Beer on the Rug, 2020)',
     url: 'https://beerontherug.bandcamp.com/album/7-sketches-for-akai-sampler',
     repo: 'https://github.com/randyriback/react_marvel_api', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'wave.jpeg',
+    img: 'a.jpeg',
     title: 'Jung Deejay - Wave Idea',
     info: '"Made with Muzak and Guitar Center on the brain", Wave Idea explores themes of Balearic club music tinged with an ironic look at how the commodification of music and musical instruments can sneakily infiltrate the creative process. The music utilizes hardware sequencers, analog synthesis, digital synthesis, and Euclidean rhythm programming.',
-    info2: 'Released on cassette, edition of 50 (Lillerne Tapes, 2019)',
+    info2: 'Cassette, edition of 50 (Lillerne Tapes, 2019)',
     url: 'https://lillernetapes.bandcamp.com/album/wave-idea',
     repo: 'https://github.com/randyriback/racer-api', // if no repo, the button will not show up
   },
