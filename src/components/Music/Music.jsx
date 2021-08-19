@@ -23,7 +23,7 @@ const Music = () => {
   }, []);
 
   return (
-    <section id="projects">
+    <section id="music">
       <Container>
         <div className="project-wrapper">
           <Title title="" />
