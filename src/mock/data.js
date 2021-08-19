@@ -40,7 +40,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'mooder.png',
     title: 'MoodMix',
-    info: "MoodMix is an app that helps users discover new music via 'weekly, curated DJ mixes' and the user's mood based on facial, emotion-based technology. The app highlights two APIs from Face++ and a Mixcloud API. Deployed with Heroku.",
+    info: "MoodMix is a Flask app that helps users discover new music via 'weekly, curated DJ mixes' and the user's mood based on facial, emotion-based technology. The app highlights two APIs from Face++ and a Mixcloud API. Deployed with Heroku.",
     info2: '',
     url: 'https://moodmix.herokuapp.com/',
     repo: 'https://github.com/randyriback/moodmix', // if no repo, the button will not show up
