@@ -29,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'gif.gif',
+    img: '',
     title: 'Reaction Remover',
     info: "A Chrome extension that removes all reactions on Facebook. Currently 'pending' on Chrome Web Store",
     info2: '',
@@ -62,7 +62,7 @@ export const projectsData = [
     info2: '',
     url: 'https://randyriback.github.io/weather-zone/',
     repo: 'https://github.com/randyriback/weather-zone', // if no repo, the button will not show up
-  }
+  },
 ];
 
 // export const musicData = [
