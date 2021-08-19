@@ -27,7 +27,7 @@ const Music = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="" />
-          {projects.map((project) => {
+          {music.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
             return (
@@ -58,7 +58,7 @@ const Music = () => {
                         Listen
                       </a>
 
-                      {/* {repo && (
+                      {repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -67,7 +67,7 @@ const Music = () => {
                         >
                           Source Code
                         </a>
-                      )} */}
+                      )}
                     </div>
                   </Fade>
                 </Col>
