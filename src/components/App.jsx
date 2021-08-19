@@ -4,16 +4,18 @@ import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import { PortfolioProvider } from '../context/context';
 
-import { aboutData, projectsData, projectsData1, contactData } from '../mock/data';
+import { aboutData, projectsData, musicData, contactData } from '../mock/data';
 
 function App() {
   const [about, setAbout] = useState({});
   const [projects, setProjects] = useState([]);
+  const [music, setMusic] = useState([]);
   const [contact, setContact] = useState({});
 
   useEffect(() => {
     setAbout({ ...aboutData });
     setProjects([...projectsData]);
+    setMusic([...musicData]);
     setContact({ ...contactData });
   }, []);
 
@@ -21,6 +23,7 @@ function App() {
     <PortfolioProvider value={{ about, projects, contact }}>
       <About />
       <Projects />
+      <Music />
       <Contact />
     </PortfolioProvider>
   );
