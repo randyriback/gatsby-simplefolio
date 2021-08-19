@@ -79,8 +79,8 @@ export const musicData = [
     id: nanoid(),
     img: 'js.png',
     title: 'Jung Deejay - Java Scripts',
-    info: 'A lively nod to rise of internet cafe culture in the 90s, Java Scripts is meant to convey “world music” through the lens of the dawn of the internet age. The process was an exercise in collecting samples of dated synthesizers and computing polyrhythms and melodies with a hardware sequencer. The B-side features a re-work of each piece by a unique artist, respectively.',
-    info2: 'Cassette, edition of 100 (Artetera Records, 2020)',
+    info: 'A lively nod to the rise of internet cafe culture in the 90s, Java Scripts is meant to convey “world music” through the lens of the dawn of the internet age. The process was an exercise in collecting samples of dated synthesizers and computing Euclidean polyrhythms and melodies with a hardware sequencer. The B-side features a re-work of each piece by a unique artist, respectively.',
+    info2: 'Cassette, edition of 100 (Artetera, 2020)',
     url: 'https://artetetra.bandcamp.com/album/java-scripts-2',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
