@@ -47,7 +47,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'racer.png',
+    img: 'car.png',
     title: 'Ergast API Display',
     info: 'A simple UI to display table data from the Ergast Racer API, deployed on Firebase.',
     info2: '',
