@@ -112,12 +112,12 @@ const Projects = () => {
           })}
         </div>
       </Container>
-      {/* <h3>Solo Releases</h3>
+      <h3>Solo Releases</h3>
         <span>
         <Link to="music" smooth duration={1000}>
             <i className="fa fa-angle-down fa-2x" aria-hidden="true" />
           </Link>
-          </span> */}
+          </span>
     </section>
   );
 };
