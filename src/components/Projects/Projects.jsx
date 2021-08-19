@@ -112,7 +112,7 @@ const Projects = () => {
           })}
         </div>
       </Container>
-      <div id="done">
+      <div id="done1">
       <h3>Solo Releases</h3>
         <span>
         <Link to="music" smooth duration={1000}>
