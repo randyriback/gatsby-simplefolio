@@ -41,11 +41,11 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                     <strong>Randy Riback is a full-stack software developer, <a href="https://soundcloud.com/jung_deejay">DJ</a>, and <a href="https://soundcloud.com/jung_deejay">musician</a> based in Beacon, NY.</strong>
                 </p>
-                {/* <p className="about-wrapper__info-text">
+                <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    "After exploring the impact of technology within the worlds of art, music, and restaurant culture in New York City, Randy coding, you can find me curating ambient sounds, exploring hikes upstate, or enjoying natural wine."}
+                    ""}
                     
-                </p> */}
+                </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Technologies + Languages: Flask, PostgreSQL, React.js, Firebase, Python, JavaScript, HTML5, CSS3, Bootstrap, Git'}
                 </p>
