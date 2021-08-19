@@ -33,8 +33,8 @@ export const projectsData = [
     title: 'Reaction Remover',
     info: "A Chrome extension that removes all reactions on Facebook. Currently 'pending' on Chrome Web Store",
     info2: '',
-    url: 'https://marvel-41f36.web.app/',
-    repo: 'https://github.com/randyriback/react_marvel_api', // if no repo, the button will not show up
+    url: 'https://github.com/randyriback/reaction_remover/tree/main#readme',
+    repo: 'https://github.com/randyriback/reaction_remover', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -77,7 +77,7 @@ export const musicData = [
   },
   {
     id: nanoid(),
-    img: 'js.jpeg',
+    img: 'js.png',
     title: 'Jung Deejay - Java Scripts',
     info: 'A lively nod to rise of internet cafe culture in the 90s, Java Scripts is meant to convey “world music” through the lens of the dawn of the internet age. The process was an exercise in collecting samples of dated synthesizers and computing polyrhythms and melodies with a hardware sequencer. The B-side features a re-work of each piece by a unique artist, respectively.',
     info2: 'Cassette, edition of 100 (Artetera Records, 2020)',
