@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <PortfolioProvider value={{ about, projects, contact }}>
+    <PortfolioProvider value={{ about, projects, music, contact }}>
       <About />
       <Projects />
       <Music />
