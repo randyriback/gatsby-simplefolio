@@ -29,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'this.gif',
+    img: 'screenshot.png',
     title: 'Reaction Remover',
     info: "A Chrome extension that removes all reactions on Facebook. Currently 'pending' on Chrome Web Store",
     info2: '',
