@@ -39,13 +39,13 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                    <strong>Hi, I'm Randy Riback.</strong>
+                    <strong>Randy Riback is a full-stack software developer, <a href="https://soundcloud.com/jung_deejay">DJ</a>, and <a href="https://soundcloud.com/jung_deejay">musician</a> based in Beacon, NY.</strong>
                 </p>
-                <p className="about-wrapper__info-text">
+                {/* <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    "I’m a full-stack software developer, DJ, and musician based in Beacon, NY. For the last 10 years, I've been exploring the impact of technology within the worlds of art, music, and restaurant culture in New York City. When I’m not coding, you can find me curating ambient sounds, exploring hikes upstate, or enjoying natural wine."}
+                    "After exploring the impact of technology within the worlds of art, music, and restaurant culture in New York City, Randy coding, you can find me curating ambient sounds, exploring hikes upstate, or enjoying natural wine."}
                     
-                </p>
+                </p> */}
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Technologies + Languages: Flask, PostgreSQL, React.js, Firebase, Python, JavaScript, HTML5, CSS3, Bootstrap, Git'}
                 </p>

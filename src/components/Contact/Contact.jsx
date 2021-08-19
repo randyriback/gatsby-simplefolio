@@ -15,9 +15,6 @@ const Contact = () => {
         <Title title="" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-            <p className="contact-wrapper__text">
-              {cta || "I'd love to hear from you!"}
-            </p>
             <a
               target="_blank"
               rel="noopener noreferrer"
