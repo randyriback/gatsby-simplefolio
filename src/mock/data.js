@@ -31,7 +31,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'screenshot.png',
     title: 'Reaction Remover',
-    info: "A Chrome extension that removes all reactions on Facebook. Currently 'pending' on Chrome Web Store",
+    info: "A Chrome extension that removes all reactions on Facebook. Currently 'pending' on Chrome Web Store.",
     info2: '',
     url: 'https://github.com/randyriback/reaction_remover/tree/main#readme',
     repo: 'https://github.com/randyriback/reaction_remover', // if no repo, the button will not show up
@@ -70,7 +70,7 @@ export const musicData = [
     id: nanoid(),
     img: 'loci.jpeg',
     title: 'jung dj - loci flux',
-    info: "A collection of work inspired by time in lockdown, each piece makes use of granular synthesis, audio sample time-stretching, and generative rhythm algorithms. Each piece on loci flux is named after a friend in the NYC DJ community in an effort to achieve catharsis and provide an homage to club music/public gatherings during their absence.",
+    info: "A collection of work inspired by time in lockdown, each piece makes use of granular synthesis, audio sample time-stretching, and generative rhythm algorithms. Each piece on loci flux is named after a friend in the NYC DJ community in an effort to achieve catharsis and provide an homage to club events/public gatherings during their absence.",
     info2: 'Cassette, edition of 75 (Lillerne Tapes, 2021)',
     url: '',
     repo: 'https://github.com/randyriback/capstone', // if no repo, the button will not show up
