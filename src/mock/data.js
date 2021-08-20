@@ -72,7 +72,7 @@ export const musicData = [
     title: 'jung dj - loci flux',
     info: "A collection of work inspired by time in lockdown, each piece makes use of granular synthesis, audio sample time-stretching, and generative rhythm algorithms. Each piece on loci flux is named after a friend in the NYC DJ community in an effort to achieve catharsis and provide an homage to club events/public gatherings during their absence.",
     info2: 'Cassette, edition of 75 (Lillerne Tapes, 2021)',
-    url: '',
+    url: 'https://lillernetapes.bandcamp.com/album/loci-flux',
     repo: 'https://github.com/randyriback/capstone', // if no repo, the button will not show up
   },
   {
