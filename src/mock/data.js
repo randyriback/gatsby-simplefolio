@@ -40,7 +40,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'mooder.png',
     title: 'MoodMix',
-    info: "MoodMix is a Flask app that helps users discover new music via 'weekly, curated DJ mixes' and the user's mood based on facial, emotion-based technology. The app highlights two APIs from Face++ and a Mixcloud API. Deployed with Heroku.",
+    info: "MoodMix is a Flask app that helps users discover new music via 'weekly, curated DJ mixes' by the user's mood with facial recognition. The app highlights two APIs from Face++ and a Mixcloud API. Deployed with Heroku.",
     info2: '',
     url: 'https://moodmix.herokuapp.com/',
     repo: 'https://github.com/randyriback/moodmix', // if no repo, the button will not show up
@@ -70,7 +70,7 @@ export const musicData = [
     id: nanoid(),
     img: 'loci.jpeg',
     title: 'jung dj - loci flux',
-    info: "A collection of work inspired by time in lockdown, each piece makes use of granular synthesis, audio sample time-stretching, and generative rhythm algorithms. Each piece on loci flux is named after a friend in the NYC DJ community in an effort to achieve catharsis and provide an homage to club events/public gatherings during their absence.",
+    info: "A collection of work inspired by time in lockdown, with use of granular synthesis, audio time-stretching, and generative rhythm algorithms. Each piece is named after a friend in the NYC DJ community in effort to provide an homage to club events and public gatherings during their absence.",
     info2: 'Cassette, edition of 75 (Lillerne Tapes, 2021)',
     url: 'https://lillernetapes.bandcamp.com/album/loci-flux',
     repo: 'https://github.com/randyriback/capstone', // if no repo, the button will not show up
@@ -79,7 +79,7 @@ export const musicData = [
     id: nanoid(),
     img: 'js.png',
     title: 'Jung Deejay - Java Scripts',
-    info: 'A lively nod to the rise of internet cafe culture in the 90s, Java Scripts is meant to convey “world music” through the lens of the dawn of the internet age. The process was an exercise in collecting samples of dated synthesizers and computing Euclidean polyrhythms and melodies with a hardware sequencer. The B-side features a re-work of each piece by a unique artist, respectively.',
+    info: 'A nod to the rise of internet cafe culture in the 90s, Java Scripts is meant to convey “world music” through the lens of the dawn of the internet age. Features collected samples of dated synthesizers and computing of hyper-repetitive Euclidean polyrhythms and melodies with a hardware sequencer. The B-side features a re-work of each piece by a unique artist, respectively.',
     info2: 'Cassette, edition of 100 (Artetera, 2020)',
     url: 'https://artetetra.bandcamp.com/album/java-scripts-2',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -88,7 +88,7 @@ export const musicData = [
     id: nanoid(),
     img: '7.jpeg',
     title: 'Jung Deejay - 7 Sketches for Akai Sampler',
-    info: 'A love-letter to the universally adored (and extremely outdated) Akai s950 Sampler. All music composed on the digital audio workstation Ableton Live and subsequently run through the famed sampler for a ‘degraded’ audio quality. The release makes use of Korg synthesizers like the M1, Wavestation, and MS-20 and was also released in an all 8-bit format, as well.',
+    info: 'Conceived as a love-letter to the universally adored (and extremely outdated) Akai s950 Sampler. All music composed on Ableton Live and its audio was run through the famed sampler for a ‘degraded’ audio quality. Korg synthesizers like the M1, Wavestation, and MS-20 were used and the album was also released in an all 8-bit format, as well.',
     info2: 'CD, edition of 100 (Beer on the Rug, 2020)',
     url: 'https://beerontherug.bandcamp.com/album/7-sketches-for-akai-sampler',
     repo: 'https://github.com/randyriback/react_marvel_api', // if no repo, the button will not show up
