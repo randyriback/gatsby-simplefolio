@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'me.jpg',
+  img: 'profile.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -31,7 +31,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'screenshot.png',
     title: 'Reaction Remover',
-    info: "A Chrome extension that removes all reactions on Facebook. Currently 'pending' on Chrome Web Store.",
+    info: "A Chrome extension that removes all reactions on Facebook. The idea came from witnessing user constributions to misinformation by 'laughing' at articles about Covid-19, to name one example. Currently 'pending' on Chrome Web Store.",
     info2: '',
     url: 'https://github.com/randyriback/reaction_remover/tree/main#readme',
     repo: 'https://github.com/randyriback/reaction_remover', // if no repo, the button will not show up
@@ -49,7 +49,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'car.png',
     title: 'Ergast API Display',
-    info: 'A simple UI to display table data from the Ergast Racer API, deployed on Firebase.',
+    info: 'A simple UI to display table data from the Ergast Racer API, deployed on Firebase. The idea was to showcase data in a visually satisfying fashion.',
     info2: '',
     url: 'https://simple-ergast-api-viewer.web.app/',
     repo: 'https://github.com/randyriback/racer-api', // if no repo, the button will not show up
@@ -70,7 +70,7 @@ export const musicData = [
     id: nanoid(),
     img: 'loci.jpeg',
     title: 'jung dj - loci flux',
-    info: "A collection of work inspired by time in lockdown, with use of granular synthesis, audio time-stretching, and generative rhythm algorithms. Each piece is named after a friend in the NYC DJ community in effort to provide an homage to club events and public gatherings during their absence.",
+    info: "A collection of work inspired by time in lockdown featuring granular synthesis, audio time-stretching, and generative rhythm algorithms. Each piece is named after a friend in the NYC DJ community in effort to provide an homage to club events and public gatherings during their absence.",
     info2: 'Cassette, edition of 75 (Lillerne Tapes, 2021)',
     url: 'https://lillernetapes.bandcamp.com/album/loci-flux',
     repo: 'https://github.com/randyriback/capstone', // if no repo, the button will not show up
