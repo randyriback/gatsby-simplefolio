@@ -77,7 +77,7 @@ export const musicData = [
   },
   {
     id: nanoid(),
-    img: 'js.png',
+    img: 'coffee.png',
     title: 'Jung Deejay - Java Scripts',
     info: 'A nod to the rise of internet cafe culture in the 90s, Java Scripts is meant to convey “world music” through the lens of the dawn of the internet age. Features collected samples of dated synthesizers and computing of hyper-repetitive Euclidean polyrhythms and melodies with a hardware sequencer. The B-side features a re-work of each piece by a unique artist, respectively.',
     info2: 'Cassette, edition of 100 (Artetera, 2020)',
