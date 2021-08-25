@@ -31,9 +31,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'screenshot.png',
     title: 'Reaction Remover',
-    info: "A Chrome extension that removes all reactions on Facebook. The idea came from witnessing user constributions to misinformation by 'laughing' at articles about Covid-19, to name one example. Currently 'pending' on Chrome Web Store.",
+    info: "A Chrome extension that removes all reactions on Facebook. The idea came from witnessing user constributions to misinformation by 'laughing' at articles about Covid-19, to name one example. Available on the Chrome Web Store.",
     info2: '',
-    url: 'https://github.com/randyriback/reaction_remover/tree/main#readme',
+    url: 'https://chrome.google.com/webstore/detail/reaction-remover/dfiapeofdbbemafjadbomikmdlgkihjn?fbclid=IwAR1em2dGGyerYNVaBWOVqeRGRIh8WcmtOH1RxDMnrW7Ck5LyTHlfpNPvayg',
     repo: 'https://github.com/randyriback/reaction_remover', // if no repo, the button will not show up
   },
   {

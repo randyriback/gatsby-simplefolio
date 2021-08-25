@@ -41,7 +41,7 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                    <strong>Hi, I'm Randy Riback. I'm a full-stack software developer, <a href="https://soundcloud.com/jung_deejay">artist</a>, and crossword enthusiast currently based in Beacon, NY. I also run an independant cassette series called <a href="https://kaphaselections.bandcamp.com">Kapha Selections</a>.</strong>
+                    <strong>Hi, I'm Randy Riback. I'm a full-stack software developer, <a href="https://soundcloud.com/jung_deejay">artist</a>, and natural wine enthusiast based in Beacon, NY. I also run an independant cassette series called <a href="https://kaphaselections.bandcamp.com">Kapha Selections</a>.</strong>
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
