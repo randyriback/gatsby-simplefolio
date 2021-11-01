@@ -34,8 +34,8 @@ export const projectsData = [
     title: 'Zodiac Music Player',
     info: "React/node.js-built app that allows users to randomly access music with the Spotify API and its Web Player SDK. Back-end deployed with Heroku, front-end deployed with firebase. Mobile-friendly.",
     info2: '',
-    url: 'https://chrome.google.com/webstore/detail/reaction-remover/dfiapeofdbbemafjadbomikmdlgkihjn?fbclid=IwAR1em2dGGyerYNVaBWOVqeRGRIh8WcmtOH1RxDMnrW7Ck5LyTHlfpNPvayg',
-    repo: 'https://github.com/randyriback/reaction_remover', // if no repo, the button will not show up
+    url: 'https://zodiacmusicplayer.web.app',
+    repo: 'https://github.com/randyriback/zodiac-music-player-frontend', // if no repo, the button will not show up
   },
 
   {
