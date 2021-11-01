@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'me2.jpeg',
+  img: 'me.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -30,7 +30,7 @@ export const projectsData = [
 
     {
     id: nanoid(),
-    img: 'screenshot.png',
+    img: 'rename.png',
     title: 'Zodiac Music Player',
     info: "React/node.js-built app that allows users to randomly access music with the Spotify API and its Web Player SDK. Back-end deployed with Heroku, front-end deployed with firebase. Mobile-friendly.",
     info2: '',
