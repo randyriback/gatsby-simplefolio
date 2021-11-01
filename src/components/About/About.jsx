@@ -72,7 +72,7 @@ const About = () => {
         </Row>
           </Container>
           <div id="done">
-      <h3>Projects</h3>
+      <h3>Coding Projects</h3>
         <span>
         <Link to="projects" smooth duration={1000}>
             <i className="fa fa-angle-down fa-2x" aria-hidden="true" style={{ cursor: "pointer" }}/>
