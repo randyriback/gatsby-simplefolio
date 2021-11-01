@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.png',
+  img: 'me2.jpeg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -27,6 +27,17 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+
+    {
+    id: nanoid(),
+    img: 'screenshot.png',
+    title: 'Zodiac Music Player',
+    info: "React/node.js-built app that allows users to randomly access music with the Spotify API and its Web Player SDK. Back-end deployed with Heroku, front-end deployed with firebase. Mobile-friendly.",
+    info2: '',
+    url: 'https://chrome.google.com/webstore/detail/reaction-remover/dfiapeofdbbemafjadbomikmdlgkihjn?fbclid=IwAR1em2dGGyerYNVaBWOVqeRGRIh8WcmtOH1RxDMnrW7Ck5LyTHlfpNPvayg',
+    repo: 'https://github.com/randyriback/reaction_remover', // if no repo, the button will not show up
+  },
+
   {
     id: nanoid(),
     img: 'screenshot.png',

@@ -27,7 +27,7 @@ const Contact = () => {
         </Fade>
         <span className="back-to-top">
           <Link to="about" smooth duration={1000}>
-            <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
+            <i className="fa fa-angle-up fa-2x" aria-hidden="true" style={{ cursor: "pointer" }}/>
           </Link>
         </span>
       </Container>

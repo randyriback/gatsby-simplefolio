@@ -41,7 +41,7 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                    <strong>Hi, I'm Randy Riback. I'm a full-stack software developer, <a href="https://soundcloud.com/jung_deejay">artist</a>, and natural wine enthusiast based in Beacon, NY. I also run an independant cassette series called <a href="https://kaphaselections.bandcamp.com">Kapha Selections</a>.</strong>
+                    <strong>Hi, I'm Randy Riback. I'm a full-stack software developer, <a href="https://soundcloud.com/jung_deejay">artist</a>, and natural wine enthusiast based in Beacon, NY. I run an independent cassette series called <a href="https://kaphaselections.bandcamp.com">Kapha Selections</a> and am currently a fellow at the <a href="">Recurse Center</a>.</strong>
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
@@ -75,7 +75,7 @@ const About = () => {
       <h3>Projects</h3>
         <span>
         <Link to="projects" smooth duration={1000}>
-            <i className="fa fa-angle-down fa-2x" aria-hidden="true" />
+            <i className="fa fa-angle-down fa-2x" aria-hidden="true" style={{ cursor: "pointer" }}/>
           </Link>
           </span>
           </div>

@@ -117,7 +117,7 @@ const Projects = () => {
       <h3>Selected Solo Releases</h3>
         <span>
         <Link to="music" smooth duration={1000}>
-            <i className="fa fa-angle-down fa-2x" aria-hidden="true" />
+            <i className="fa fa-angle-down fa-2x" aria-hidden="true" style={{ cursor: "pointer" }}/>
           </Link>
           </span>
           </div>
