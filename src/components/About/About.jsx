@@ -49,7 +49,7 @@ const About = () => {
                     
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Skills include Flask, React.js, PostgreSQL, Python, JavaScript, HTML5, CSS3, Firebase, Gatsby, Heroku, Git, Ableton Live, Protools'}
+                  {paragraphThree || 'Proficient in Flask, React.js, PostgreSQL, Python, JavaScript, HTML5, CSS3, Firebase, Gatsby, Heroku, Git, Ableton Live & Protools'}
                 </p>
                 <p className="about-wrapper__info-text">
                 <a href="mailto:randolph.riback@gmail.com">Say hello</a> or find me on <a href="https://github.com/randyriback">GitHub</a> and <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>.
