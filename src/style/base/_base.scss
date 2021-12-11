@@ -1,8 +1,61 @@
+// @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 html {
   font-size: 62.5%;
 }
 
+#file{
+  animation: move 25s linear 0s infinite;
+  position: fixed;
+  height: 40px;
+  top: 50%;
+  width: 30px;
+}
+
+#file2{
+  animation: move2 25s linear 0s infinite;
+  position: fixed;
+  height: 40px;
+  top: 65%;
+  width: 30px;
+}
+
+#file3{
+  animation: move3 25s linear 0s infinite;
+  position: fixed;
+  height: 40px;
+  top: 80%;
+  width: 30px;
+}
+
+
+@keyframes move {
+  from {
+    left: 150%;
+  }
+  to {
+    left: -150%;
+  }
+}
+
+@keyframes move2 {
+  from {
+    left: 180%;
+  }
+  to {
+    left: -150%;
+  }
+}
+
+@keyframes move3 {
+  from {
+    left: 110%;
+  }
+  to {
+    left: -150%;
+  }
+}
+
 body {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Courier', sans-serif;
   text-align: center;
 }
