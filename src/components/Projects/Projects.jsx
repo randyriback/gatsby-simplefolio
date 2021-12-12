@@ -114,13 +114,17 @@ const Projects = () => {
         </div>
       </Container>
       <div id="done1">
-      <h3>Selected Solo Releases</h3>
+        <h3>Selected Solo Releases</h3>
         <span>
-        <Link to="music" smooth duration={1000}>
-            <i className="fa fa-angle-down fa-2x" aria-hidden="true" style={{ cursor: "pointer" }}/>
+          <Link to="music" smooth duration={1000}>
+            <i
+              className="fa fa-angle-down fa-2x"
+              aria-hidden="true"
+              style={{ cursor: 'pointer' }}
+            />
           </Link>
-          </span>
-          </div>
+        </span>
+      </div>
     </section>
   );
 };

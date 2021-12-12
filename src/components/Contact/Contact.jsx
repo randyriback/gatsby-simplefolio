@@ -7,7 +7,7 @@ import Title from '../Title/Title';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
-  const { cta, btn, email } = contact;
+  const { btn } = contact;
 
   return (
     <section id="contact">
@@ -19,15 +19,15 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={"mailto:randolph.riback@gmail.com"}
+              href="mailto:randolph.riback@gmail.com"
             >
-              {btn || "Say Hello"}
+              {btn || 'Say Hello'}
             </a>
           </div>
         </Fade>
         <span className="back-to-top">
           <Link to="about" smooth duration={1000}>
-            <i className="fa fa-angle-up fa-2x" aria-hidden="true" style={{ cursor: "pointer" }}/>
+            <i className="fa fa-angle-up fa-2x" aria-hidden="true" style={{ cursor: 'pointer' }} />
           </Link>
         </span>
       </Container>

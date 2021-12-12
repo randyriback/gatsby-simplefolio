@@ -21,18 +21,18 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  paragraphFour: "",
-  resume: 'https://docs.google.com/document/d/e/2PACX-1vQbCgjq1kjTrPPQfjq3oeJplp-8d3AZAi3xictJH6vQnWUB0pI6VStMSKQwq8DCSwQslGAPs1iZiYUR/pub', // if no resume, the button will not show up
+  paragraphFour: '',
+  resume:
+    'https://docs.google.com/document/d/e/2PACX-1vQbCgjq1kjTrPPQfjq3oeJplp-8d3AZAi3xictJH6vQnWUB0pI6VStMSKQwq8DCSwQslGAPs1iZiYUR/pub', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
-
-    {
+  {
     id: nanoid(),
     img: 'rename.png',
     title: 'Zodiac Music Player',
-    info: "React/node.js-built app that allows users to randomly access music with the Spotify API and its Web Player SDK. Back-end deployed with Heroku, front-end deployed with firebase. Mobile-friendly.",
+    info: 'React/node.js-built app that allows users to randomly access music with the Spotify API and its Web Player SDK. Back-end deployed with Heroku, front-end deployed with firebase. Mobile-friendly.',
     info2: '',
     url: 'https://zodiacmusicplayer.web.app',
     repo: 'https://github.com/randyriback/zodiac-music-player-frontend', // if no repo, the button will not show up
@@ -42,7 +42,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'screenshot.png',
     title: 'Reaction Remover',
-    info: "A Chrome extension that removes all reactions on Facebook. The idea came from witnessing user constributions to misinformation by 'laughing' at articles about Covid-19, to name one example. Available on the Chrome Web Store.",
+    info: "A Chrome extension that removes all reactions on Facebook. The idea came from noticing misinformation aided by users 'laughing' at articles about Covid-19 and other serious matters. Available on the Chrome Web Store.",
     info2: '',
     url: 'https://chrome.google.com/webstore/detail/reaction-remover/dfiapeofdbbemafjadbomikmdlgkihjn?fbclid=IwAR1em2dGGyerYNVaBWOVqeRGRIh8WcmtOH1RxDMnrW7Ck5LyTHlfpNPvayg',
     repo: 'https://github.com/randyriback/reaction_remover', // if no repo, the button will not show up
@@ -81,7 +81,7 @@ export const musicData = [
     id: nanoid(),
     img: 'loci.jpeg',
     title: 'jung dj - loci flux',
-    info: "A collection of work inspired by time in lockdown featuring granular synthesis, audio time-stretching, and generative rhythm algorithms. Each piece is named after a friend in the NYC DJ community in effort to provide an homage to club events and public gatherings during their absence.",
+    info: 'A collection of work inspired by time in lockdown featuring granular synthesis, audio time-stretching, and generative rhythm algorithms. Each piece is named after a friend in the NYC DJ community in effort to provide an homage to club events and public gatherings during their absence.',
     info2: 'Cassette, edition of 75 (Lillerne Tapes, 2021)',
     url: 'https://lillernetapes.bandcamp.com/album/loci-flux',
     repo: 'https://github.com/randyriback/capstone', // if no repo, the button will not show up
@@ -115,7 +115,6 @@ export const musicData = [
   },
 ];
 
-
 // CONTACT DATA
 export const contactData = {
   cta: '',
@@ -126,7 +125,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-
     {
       id: nanoid(),
       name: 'github',

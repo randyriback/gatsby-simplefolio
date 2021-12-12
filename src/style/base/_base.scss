@@ -12,48 +12,40 @@ html {
 }
 
 #file2{
-  animation: move2 25s linear 0s infinite;
+  animation: move 25s linear 0s infinite;
   position: fixed;
   height: 40px;
-  top: 65%;
+  top: 50%;
   width: 30px;
 }
 
 #file3{
-  animation: move3 25s linear 0s infinite;
+  animation: movedown 30s linear 0s infinite;
   position: fixed;
   height: 40px;
-  top: 80%;
   width: 30px;
+  z-index: 1;
+  right: 95%;
 }
 
 
 @keyframes move {
   from {
-    left: 150%;
+    left: 120%;
   }
   to {
-    left: -150%;
+    left: -120%;
   }
-}
+};
 
-@keyframes move2 {
+@keyframes movedown {
   from {
-    left: 180%;
+    bottom: 100%;
   }
   to {
-    left: -150%;
+    bottom: -100%;
   }
-}
-
-@keyframes move3 {
-  from {
-    left: 110%;
-  }
-  to {
-    left: -150%;
-  }
-}
+};
 
 body {
   font-family: 'Courier', sans-serif;

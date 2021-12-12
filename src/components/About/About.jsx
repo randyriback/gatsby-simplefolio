@@ -5,7 +5,6 @@ import { Link } from 'react-scroll';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
-import musicfile from '../../images/wav-file.png';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -39,18 +38,6 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
-                <a href="https://www.soundcloud.com/jungdeejay" target="_blank" rel="noreferrer">
-                  {' '}
-                  <img src={musicfile} id="file" alt="tunes" />{' '}
-                </a>
-                <a href="https://www.soundcloud.com/jungdeejay" target="_blank" rel="noreferrer">
-                  {' '}
-                  <img src={musicfile} id="file2" alt="tunes" />{' '}
-                </a>
-                <a href="https://www.soundcloud.com/jungdeejay" target="_blank" rel="noreferrer">
-                  {' '}
-                  <img src={musicfile} id="file3" alt="tunes" />{' '}
-                </a>
                 <p className="about-wrapper__info-text">
                   <strong>
                     Hi, I&apos;m Randy Riback. I&apos;m a full-stack software developer,{' '}
