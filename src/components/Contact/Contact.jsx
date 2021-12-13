@@ -18,10 +18,10 @@ const Contact = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
+              // className="cta-btn cta-btn--resume"
               href="mailto:randolph.riback@gmail.com"
             >
-              {btn || 'Say Hello'}
+              {btn || 'Say hello :)'}
             </a>
           </div>
         </Fade>

@@ -28,7 +28,7 @@ const Music = () => {
         <div className="project-wrapper">
           <Title title="" />
           {music.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, img, id } = project;
 
             return (
               <Row key={id}>
@@ -52,16 +52,11 @@ const Music = () => {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="cta-btn cta-btn--resume"
+                        // className="cta-btn cta-btn--resume"
                         href={url || '#!'}
                       >
                         Listen
                       </a>
-
-                      {repo && (
-                        <a>
-                        </a>
-                      )}
                     </div>
                   </Fade>
                 </Col>

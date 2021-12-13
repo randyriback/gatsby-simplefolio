@@ -63,15 +63,15 @@
 
 /* Resume Style */
 .cta-btn--resume {
-  color: $dark-grey;
+  color: $blue;
 
   &::after {
-    background: $dark-grey;
-    border: 2px solid $dark-grey;
+    background: $blue;
+    border: 2px solid $blue;
   }
 
   &:hover {
-    color: $dark-grey;
+    color: $blue;
     text-decoration: none;
     color: $white-color;
 

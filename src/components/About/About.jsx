@@ -8,7 +8,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphTwo, paragraphThree, resume } = about;
+  const { img } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -39,34 +39,25 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  <strong>
-                    Hi, I&apos;m Randy Riback. I&apos;m a full-stack software developer,{' '}
-                    <a href="https://soundcloud.com/jungdeejay">artist</a>, and natural wine
-                    enthusiast based in Beacon, NY. I run an independent cassette series called{' '}
-                    <a href="https://kaphaselections.bandcamp.com">Kapha Selections</a> and am
-                    currently a fellow at the <a href="https://www.recurse.com/">Recurse Center</a>.
-                  </strong>
-                </p>
-                <p className="about-wrapper__info-text">{paragraphTwo || ''}</p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree ||
-                    "I'm proficient with Flask, React.js, Node.js, Express, GraphQL, PostgreSQL, Python, JavaScript, HTML5, CSS3, Firebase, Gatsby, Heroku, & Git."}
+                  Hi, I&apos;m Randy Riback. I&apos;m a full-stack software developer,{' '}
+                  <a href="https://soundcloud.com/jungdeejay">artist</a>, and natural wine
+                  enthusiast based in Beacon, NY. I run an independent cassette series called{' '}
+                  <a href="https://kaphaselections.bandcamp.com">Kapha Selections</a> and am
+                  currently a fellow at the <a href="https://www.recurse.com/">Recurse Center</a>.
                 </p>
                 <p className="about-wrapper__info-text">
-                  <a href="mailto:randolph.riback@gmail.com">Say hello</a> or find me on{' '}
-                  <a href="https://github.com/randyriback">GitHub</a> and{' '}
-                  <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a> :)
+                  I&apos;m proficient with Flask, React.js, Node.js, Express, GraphQL, PostgreSQL,
+                  Python, JavaScript, HTML5, CSS3, Firebase, Gatsby, Heroku, & Git.
                 </p>
-                <span className="d-flex mt-3">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="cta-btn cta-btn--resume"
-                    href={resume}
-                  >
-                    View Resume
-                  </a>
-                </span>
+                <p className="about-wrapper__info-text">
+                  Find me on <a href="https://github.com/randyriback">GitHub</a>,{' '}
+                  <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>, or check out
+                  my{' '}
+                  <a href="https://docs.google.com/document/d/e/2PACX-1vQbCgjq1kjTrPPQfjq3oeJplp-8d3AZAi3xictJH6vQnWUB0pI6VStMSKQwq8DCSwQslGAPs1iZiYUR/pub">
+                    resume
+                  </a>{' '}
+                  :)
+                </p>
               </div>
             </Fade>
           </Col>

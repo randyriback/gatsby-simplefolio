@@ -69,7 +69,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'weather.png',
     title: 'Weather Zone',
-    info: 'A minimal interface for the weather API from openweathermap.org, Weather Zone also utilizes the Giphy API with a beta key. Deployed with GitHub Pages.',
+    info: 'A minimal interface for the weather API from openweathermap.org, Weather Zone also calls the Giphy API with a beta key. Deployed with GitHub Pages.',
     info2: '',
     url: 'https://randyriback.github.io/weather-zone/',
     repo: 'https://github.com/randyriback/weather-zone', // if no repo, the button will not show up

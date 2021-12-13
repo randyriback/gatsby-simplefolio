@@ -53,20 +53,20 @@ const Projects = () => {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="cta-btn cta-btn--resume"
+                        // className="cta-btn cta-btn--resume"
                         href={url || '#!'}
                       >
-                        See Live
+                        See Live&nbsp;//
                       </a>
 
                       {repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn cta-btn--resume"
+                          // className="cta-btn cta-btn--resume"
                           href={repo}
                         >
-                          Source Code
+                          &nbsp;Source Code
                         </a>
                       )}
                     </div>
