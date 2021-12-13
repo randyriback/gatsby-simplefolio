@@ -44,11 +44,17 @@ const About = () => {
                   enthusiast based in Beacon, NY. I run an independent cassette series called{' '}
                   <a href="https://kaphaselections.bandcamp.com">Kapha Selections</a> and am
                   currently a fellow at the <a href="https://www.recurse.com/">Recurse Center</a>.
+                  <>
+                    <p />
+                  </>
                 </p>
                 <p className="about-wrapper__info-text">
                   I&apos;m proficient with Flask, React.js, Node.js, Express, GraphQL, PostgreSQL,
                   Python, JavaScript, HTML5, CSS3, Firebase, Gatsby, Heroku, & Git.
                 </p>
+                <>
+                  <p />
+                </>
                 <p className="about-wrapper__info-text">
                   Find me on <a href="https://github.com/randyriback">GitHub</a>,{' '}
                   <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>, or check out
