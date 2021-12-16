@@ -30,6 +30,24 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'drums.png',
+    title: 'Server-Drumsolo',
+    info: 'A node module that allows for you to hear your server in real-time (in the form a drum solo!) with piped data from your server logs via stdin.',
+    info2: '',
+    url: 'https://www.npmjs.com/package/server-drumsolo',
+    repo: 'https://github.com/randyriback/server-drumsolo', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'faders.png',
+    title: '16 Faders',
+    info: 'A handy web-based MIDI controller and bank of 16 faders that can be assigned to parameters in your DAW (ex. Ableton Live) via the WebMidi.JS API. Deployed with Firebase.',
+    info2: '',
+    url: 'https://faders16.web.app',
+    repo: 'https://github.com/randyriback/16-midi-faders', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'rename.png',
     title: 'Zodiac Music Player',
     info: 'React/node.js-built app that allows users to randomly access music with the Spotify API and its Web Player SDK. Back-end deployed with Heroku, front-end deployed with firebase. Mobile-friendly.',
