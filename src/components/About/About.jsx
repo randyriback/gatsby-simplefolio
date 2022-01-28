@@ -43,14 +43,15 @@ const About = () => {
                   <a href="https://soundcloud.com/jungdeejay">artist</a>, and natural wine
                   enthusiast based in Beacon, NY. I run an independent cassette series called{' '}
                   <a href="https://kaphaselections.bandcamp.com">Kapha Selections</a> and am
-                  currently a fellow at the <a href="https://www.recurse.com/">Recurse Center</a>.
+                  currently a particpant of the{' '}
+                  <a href="https://www.recurse.com/">Recurse Center</a> in NYC.
                   <>
                     <p />
                   </>
                 </p>
                 <p className="about-wrapper__info-text">
-                  I&apos;m proficient with Flask, React.js, Node.js, Express, GraphQL, PostgreSQL,
-                  Python, JavaScript, HTML5, CSS3, Firebase, Gatsby, Heroku, & Git.
+                  I&apos;m proficient with Flask, React.js, Node.js, Express, PostgreSQL, MongoDB,
+                  GraphQL, Python, JavaScript, HTML5, CSS3, Firebase, Gatsby, Heroku, & Git.
                 </p>
                 <>
                   <p />
