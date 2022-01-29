@@ -32,16 +32,16 @@ export const projectsData = [
     id: nanoid(),
     img: 'seq.png',
     title: 'React MIDI Sequencer',
-    info: 'A browser-based version of a traditional 16 step sequencer (with 4 independant tracks) built with React Hooks and the WebMidi.js API that allows users to send MIDI notes to any device connected to their local machine, including Ableton Live. Deployed with Firebase. YouTube demo can be found here.',
-    info2: '',
+    info: 'A browser-based version of a traditional 16 step sequencer (with 4 independant tracks) built with React Hooks and the WebMidi.js API that allows users to send MIDI notes to any device connected to their local machine, including Ableton Live. Deployed with Firebase.',
+    info2: 'https://www.youtube.com/watch?v=XniKvlTvUpo',
     url: 'https://www.react-midi-sequencer.web.app',
     repo: 'https://github.com/randyriback/sequencer-test', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'genpy.png',
-    title: 'Python Generative Composition Libarary / Data Sonification Works',
-    info: 'A library of tools to streamline generative music composition in Python via the manipulation of MIDI data. Used exclusively in an an upcoming album and alongside data sonification explorations at the Recurse Center, where I formed and led the Data Sonification Group. A release of sonification pieces of mine will be released on the Portuguese label Surf in mid-February.',
+    title: 'Generative Music Composition Libarary / Data Sonification',
+    info: "A Python library of tools to streamline generative music composition in Python through the manipulation of MIDI data. Used in an upcoming album and alongside data sonification explorations at the Recurse Center, where I'd formed and led the Data Sonification Group. A release of sonification pieces of mine will be released on the Lisbon-based label, Surf, in mid-February.",
     info2: '',
     url: 'https://gist.github.com/randyriback/e7c21dfc0a305ffe9bfe6451a6a7a947',
     repo: 'https://github.com/randyriback/python-generative-music', // if no repo, the button will not show up
