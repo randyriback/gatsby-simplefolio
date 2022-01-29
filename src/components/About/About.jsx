@@ -60,7 +60,7 @@ const About = () => {
                   Find me on <a href="https://github.com/randyriback">GitHub</a>,{' '}
                   <a href="https://www.linkedin.com/in/randolph-riback/">LinkedIn</a>, or check out
                   my{' '}
-                  <a href="https://docs.google.com/document/d/e/2PACX-1vQbCgjq1kjTrPPQfjq3oeJplp-8d3AZAi3xictJH6vQnWUB0pI6VStMSKQwq8DCSwQslGAPs1iZiYUR/pub">
+                  <a href="https://docs.google.com/document/d/e/2PACX-1vTRsR5qJ76PB5_qiaXP3hneUN79tLk6oR0-iO4bTg85jJ0CvrVyvpABYlijmZ3mZRuK0JBuQX9tzLa9/pub">
                     resume
                   </a>{' '}
                   :)
