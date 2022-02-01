@@ -34,7 +34,7 @@ export const projectsData = [
     title: 'React MIDI Sequencer',
     info: 'A browser-based version of a traditional 16 step sequencer (with 4 independant tracks) built with React Hooks and the WebMidi.js API that allows users to send MIDI notes to any device connected to their local machine, including Ableton Live. Deployed with Firebase.',
     info2: 'https://www.youtube.com/watch?v=XniKvlTvUpo',
-    url: 'https://www.react-midi-sequencer.web.app',
+    url: 'https://react-midi-sequencer.web.app',
     repo: 'https://github.com/randyriback/sequencer-test', // if no repo, the button will not show up
   },
   {
