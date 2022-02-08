@@ -42,7 +42,7 @@ export const projectsData = [
     img: 'genpy.png',
     title: 'Generative Music Composition Libarary / Data Sonification',
     info: "A Python library of tools to streamline generative music composition through the manipulation of MIDI data. Used in an upcoming album and alongside data sonification explorations at the Recurse Center, where I'd formed and led the Data Sonification Group. A release of sonification pieces of mine will be released on the Lisbon-based label, Surf, in mid-February.",
-    info2: '',
+    info2: 'https://www.youtube.com/watch?v=bW3mPZ2extw',
     url: 'https://gist.github.com/randyriback/e7c21dfc0a305ffe9bfe6451a6a7a947',
     repo: 'https://github.com/randyriback/python-generative-music', // if no repo, the button will not show up
   },
