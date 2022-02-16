@@ -22,7 +22,7 @@ function App() {
 
   return (
     <PortfolioProvider value={{ about, projects, music, contact }}>
-      <a href="https://www.soundcloud.com/jungdeejay" target="_blank" rel="noreferrer">
+      <a href="https://ifonlyuk.com/premiere-jung-dj-bitcoin/" target="_blank" rel="noreferrer">
         {' '}
         <img src={musicfile} id="file3" alt="tunes" />{' '}
       </a>

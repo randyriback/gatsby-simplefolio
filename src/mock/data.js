@@ -41,7 +41,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'genpy.png',
     title: 'Generative Music Composition Libarary / Data Sonification',
-    info: "A Python library of tools to streamline generative music composition through the manipulation of MIDI data. Used in an upcoming album and alongside data sonification explorations at the Recurse Center, where I'd formed and led the Data Sonification Group. A release of sonification pieces of mine will be released on the Lisbon-based label, Surf, in mid-February.",
+    info: "A Python library of tools to streamline generative music composition through the manipulation of MIDI data. Used in an upcoming album and alongside data sonification explorations at the Recurse Center, where I'd formed and led the Data Sonification Group. A release of sonification pieces of mine was recently released on the Lisbon-based net label, ~surf.",
     info2: 'https://www.youtube.com/watch?v=bW3mPZ2extw',
     url: 'https://gist.github.com/randyriback/e7c21dfc0a305ffe9bfe6451a6a7a947',
     repo: 'https://github.com/randyriback/python-generative-music', // if no repo, the button will not show up
@@ -66,6 +66,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'mooder.png',
+    title: 'MoodMix',
+    info: "MoodMix is a Flask app that helps users discover new music via 'weekly, curated DJ mixes' by the user's mood with facial recognition. The app highlights two APIs from Face++ and a Mixcloud API. Deployed with Heroku.",
+    info2: '',
+    url: 'https://moodmix.herokuapp.com/',
+    repo: 'https://github.com/randyriback/moodmix', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'rename.png',
     title: 'Zodiac Music Player',
     info: 'React/node.js-built app that allows users to randomly access music with the Spotify API and its Web Player SDK. Back-end deployed with Heroku, front-end deployed with firebase. Mobile-friendly.',
@@ -85,15 +94,6 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'mooder.png',
-    title: 'MoodMix',
-    info: "MoodMix is a Flask app that helps users discover new music via 'weekly, curated DJ mixes' by the user's mood with facial recognition. The app highlights two APIs from Face++ and a Mixcloud API. Deployed with Heroku.",
-    info2: '',
-    url: 'https://moodmix.herokuapp.com/',
-    repo: 'https://github.com/randyriback/moodmix', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'weather.png',
     title: 'Weather Zone',
     info: 'A minimal interface for the weather API from openweathermap.org, Weather Zone also calls the Giphy API with a beta key. Deployed with GitHub Pages.',
@@ -104,6 +104,15 @@ export const projectsData = [
 ];
 
 export const musicData = [
+  {
+    id: nanoid(),
+    img: 'jdart.png',
+    title: 'Jung DJ - Sonifications of Price',
+    info: 'A release of two data sonification experiments where parameters are mapped to the price of Bitcoin and gold, respectivly. A natural outcome of time-spent with the Data Sonification Group at the Recurse Center.',
+    info2: 'Digital release (~surf, 2022)',
+    url: 'https://surf.bandcamp.com/album/sonifications-of-price',
+    repo: 'https://github.com/randyriback/capstone', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'loci.jpeg',
